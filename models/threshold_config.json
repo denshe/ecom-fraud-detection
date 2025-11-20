@@ -1,0 +1,30 @@
+{
+  "default_threshold": 0.5,
+  "optimized_thresholds": {
+    "conservative_90pct_recall": {
+      "threshold": 0.2602037787437439,
+      "target_recall": 0.9,
+      "achieved_recall": 0.9009826152683296,
+      "precision": 0.4613003095975232,
+      "f1": 0.6101868441259278,
+      "description": "Catch most fraud (90% recall), accept more false positives"
+    },
+    "balanced_85pct_recall": {
+      "threshold": 0.4315088987350464,
+      "target_recall": 0.85,
+      "achieved_recall": 0.8503401360544217,
+      "precision": 0.6863941427699817,
+      "f1": 0.7596218771100607,
+      "description": "Balanced precision-recall trade-off (similar to default)"
+    },
+    "aggressive_80pct_recall": {
+      "threshold": 0.7306904792785645,
+      "target_recall": 0.8,
+      "achieved_recall": 0.800453514739229,
+      "precision": 0.8305882352941176,
+      "f1": 0.8152424942263279,
+      "description": "Prioritize precision (80% recall), reduce false positives"
+    }
+  },
+  "note": "Thresholds optimized on validation set using final retrained model"
+}

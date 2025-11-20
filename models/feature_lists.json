@@ -1,0 +1,38 @@
+{
+  "continuous_numeric": [
+    "account_age_days",
+    "avg_amount_user",
+    "amount",
+    "shipping_distance_km",
+    "amount_deviation",
+    "amount_vs_avg_ratio",
+    "security_score"
+  ],
+  "categorical": [
+    "channel",
+    "promo_used",
+    "avs_match",
+    "three_ds_flag"
+  ],
+  "binary": [
+    "is_micro_transaction",
+    "is_large_transaction",
+    "country_mismatch"
+  ],
+  "all_features": [
+    "account_age_days",
+    "avg_amount_user",
+    "amount",
+    "shipping_distance_km",
+    "amount_deviation",
+    "amount_vs_avg_ratio",
+    "security_score",
+    "channel",
+    "promo_used",
+    "avs_match",
+    "three_ds_flag",
+    "is_micro_transaction",
+    "is_large_transaction",
+    "country_mismatch"
+  ]
+}
